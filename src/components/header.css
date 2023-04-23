@@ -5,7 +5,7 @@
 .logo{
   height: 15mm;
   text-align: left;
-  margin-right: 81%;
+  /* margin-right: 81%; */
   border-radius: 31mm;
 }
 .slogan{
@@ -31,7 +31,7 @@ nav{
 }
 ul {
     list-style-type: none;
-    margin-top: -6%;
+    margin-top: -60px;
     padding: 0;
     text-align: right;
     
