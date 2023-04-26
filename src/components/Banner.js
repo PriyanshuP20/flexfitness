@@ -10,7 +10,7 @@ export default function Banner() {
   return (<Container>
     <Main>
       
-      <Header/>
+      {/* <Header/> */}
       <div className="slogan">
           <span>
           <h1>Build Perfect body shape<br/>

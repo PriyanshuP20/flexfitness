@@ -28,6 +28,8 @@ span{
 nav{
   background-color: transparent;
   border: #4F200D;  
+  z-index: 10;
+  display: block;
 }
 ul {
     list-style-type: none;

@@ -4,9 +4,8 @@ import '../src/App.css';
 
 import { Routes, Route, HashRouter } from "react-router-dom";
 import LandingPage from './components/landingPage';
-import Footer from './components/Footer';
-import Conatct from './components/Conatct';
-import About from './components/About';
+import Video from './video/Video';
+import Header from './components/Header';
 
 
 
@@ -14,8 +13,10 @@ function App() {
   return (
     <>
     <HashRouter>
+      {/* <LandingPage/> */}
       <Routes>
-        <Route path="/" element={<LandingPage />}> 
+
+        <Route path="/" element={<Header />}> 
           <Route path="/" element={<LandingPage />} />
           <Route path="/video" element={<Video />} />
           {/* <Route path="/about" element={<About />} /> */}
@@ -24,7 +25,8 @@ function App() {
         </Route>
       </Routes>
     </HashRouter>
-   
+    
+    {/* <Foot />      */}
     </>
   )
 }
