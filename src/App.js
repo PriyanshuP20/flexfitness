@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Exercise from './components/Excersise';
 
 
+import RoomPage from './video/Room/Room';
 
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/video" element={<Video />} />
           <Route path="/exercise" element={<Exercise />} />
+          <Route path="/room/:roomId" element={<RoomPage/>}></Route>
+          {/* <Route path="/about" element={<About />} /> */}
           {/* <Route path="/contact" element={<Contact />} /> */}
           {/* <Route path="/Login" element={<Login />} /> */}
         </Route>
@@ -33,4 +36,3 @@ function App() {
 }
 
 export default App
-
