@@ -1,0 +1,23 @@
+
+.contact-box {
+ 
+    display: grid;
+  
+  
+  }
+  
+  .form-grp {
+    display: grid;
+    row-gap: 3rem;
+    padding: 4rem 2.4rem;
+  }
+  
+  .form-flex {
+    justify-self: flex-start;
+  }
+  
+  #mapid {
+    height: 55rem;
+    width: 100%;
+  }
+  
