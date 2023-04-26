@@ -4,6 +4,10 @@ import '../src/App.css';
 
 import { Routes, Route, HashRouter } from "react-router-dom";
 import LandingPage from './components/landingPage';
+import Footer from './components/Footer';
+import Conatct from './components/Conatct';
+import About from './components/About';
+import {Routes, Route, HashRouter} from "react-router-dom";
 
 
 function App() {
