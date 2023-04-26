@@ -14,6 +14,7 @@ export default function Header() {
         
         <li> <Link to="/">Home</Link></li>
         <li> <Link to="/video">Videos</Link></li>
+        <li> <Link to="/exercise">Exercise</Link></li>
         <li> <a href="#">Contact</a></li>
         <li>< a href="#">About</a></li>
         <li className='member'>< a href="#">Become a member</a></li>
