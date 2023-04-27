@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import bg from "../image/bg.png";
+import bg from "../image/images.jpg";
 import Button from "../components/reusable/button.js";
 
 import Header from "./Header";

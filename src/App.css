@@ -160,3 +160,44 @@ h1 {
   color: #040000f6;
 }
   
+
+
+/* FOOTER */
+
+.footer{
+ 
+  bottom: 0;
+  background: #251f21;
+  
+  width: 100%;
+
+
+}
+.footer h5{
+color: rgb(244, 86, 255);
+}
+.footer_logo{
+  height: 50%;
+  width: 50%;
+  
+}
+.mar{
+  margin-left: 3%;
+}
+
+.social-icons{
+  text-align: center;
+  /* margin-top:none;  */
+  /* max-width: 50%; */
+  align-content: space-around;
+}
+hr{
+  width:50%;
+  margin:1%;
+  border: 3px solid rgb(0, 0, 0); 
+  border-radius: 5px;
+   width: 80%;
+    margin: auto
+}
+
+/* FOOTER FINISHED */

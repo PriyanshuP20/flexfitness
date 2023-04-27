@@ -1,5 +1,5 @@
 import Banner from '../components/Banner'
-import Exercise from '../Exercise';
+import Exercise from './Exercise.js';
 
 
 export default function LandingPage() {
