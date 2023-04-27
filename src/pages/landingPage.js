@@ -1,5 +1,5 @@
 import Banner from '../components/Banner'
-import Exercise from './Exercise.js';
+import Exercise from '../components/reusable/Eprop.js';
 
 
 export default function LandingPage() {
@@ -21,12 +21,6 @@ export default function LandingPage() {
               exercises to target your abs. It will help you improve your
               mood and gain energy."/> 
         </div>
-  
-  
-  
-  
-  
-  
       </div>
        
       

@@ -7,7 +7,7 @@ import LandingPage from './pages/landingPage';
 import Video from './video/Video';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Exercise from './components/Excersise';
+import Exercise from './pages/Excersise';
 
 
 import RoomPage from './video/Room/Room';

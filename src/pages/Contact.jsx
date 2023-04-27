@@ -4,70 +4,71 @@ import './Contact.css';
 const Contact =()=> {
   
     return(
-      <div class="divOuter">
-      <Container >
-        <Row className="nb-5 mt-3">
-          <Col lg='8'>
-            <h1 className="display-4 mb-4">
-              Contact Us
-            </h1>
-          </Col>
-        </Row>
-  
-        <Row className="sec_sp">
-          <Col lg='5' className="mb-5">
-            <h3 className="color_sec py-4">Get in touch </h3>
-            <address>
-              <strong>Email:leafyoasis@gmail.com</strong>
-              <br />
-              <br />
-              <p>
-                <strong>Phone:+91 9900000099</strong>
-              </p>
-            </address>
-            <p>Welcome to our Contact Us page! We value your feedback and inquiries and want to make it easy for you to get in touch with us. Whether you have a question about our products or services, a suggestion for improvement, or just want to say hello, we are here to listen. Please fill out the form below with your information and message, and we will respond to you as soon as possible. You can also find our contact information listed on this page if you prefer to reach out to us by phone or email. Thank you for your interest in our company, and we look forward to hearing from you!</p>
-          </Col>
-          <Col lg='7' className="d-flex align-items-center">
-            <form className="contact__form w-100" action="https://formsubmit.co/5e76cbf99489ecd8374187e5bc54802b " method="POST">
-              <Row>
-                <Col lg='6' className="form-group">
-                  <input  
-                  className="form-control"
-                  id="name"
-                  name="name"
-                  placeholder="Name"
-                  type="text"
-                  />
-                  </Col>
-                <Col lg='6' className="form-group">
-                  <input  
-                  className="form-control rounded-0"
-                  id="email"
-                  name="email"
-                  placeholder="Email"
-                  type="email"
-                  />
-                  </Col>
-              </Row>
-              <textarea 
-                       className="form-control rounded-0" id="message"
-                        name="message"
-                        placeholder="Message"
-                         row='5'
-              ></textarea>
-              <br />
-              <Row>
-                <Col lg='12' className="form-group">
-              
-                 <button className="btn ac_btn" type="submit">Send</button>  
-                </Col>
-                </Row>
-              </form>
-          </Col>
-        </Row>
-      </Container>
-      </div>
-   
+    <>
+    <div class="contact-form-container">
+  <div class="contact-us">
+    <div class="contact-header">
+      <h1>
+        &#9135;&#9135;&#9135;&#9135;&nbsp;&nbsp;CONTACT US
+      </h1>
+    </div>
+    <div class="social-bar">
+      <ul>
+        <li>
+          <i class="fab fa-facebook-f"></i>
+        </li>
+        <li>
+          <i class="fab fa-twitter"></i>
+        </li>
+        <li>
+          <i class="fab fa-instagram"></i>
+        </li>
+        <li>
+          <i class="fab fa-dribbble"></i>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="header">
+    <h1>
+      Let's Get Started
+    </h1>
+    <h2>
+      Reach out to us for any queries and help.
+    </h2>
+  </div>
+  {/* <div class="address">
+    <i class="fas fa-map-marker-alt"></i>
+    <h3>
+      8266 Gygax
+    </h3>
+    <h3>
+      Norfolk, VA
+    </h3>
+  </div> */}
+  <div class="phone">
+    <i class="fas fa-phone-alt"></i>
+    <h3>
+      Contact: 7200000091
+    </h3>
+  </div>
+
+  <div class="email">
+    <i class="fas fa-envelope"></i>
+    <h3>
+      Email: hello@flexfitness.com
+    </h3>
+  </div>
+  <div class="contact-form">
+  <form target="_blank" action="https://formsubmit.co/priyanshupatel007@gmail.com" method="POST">
+      <input placeholder="Name" type="text" name="name"/>
+      <input placeholder="Email" type="email" name="Email"/>
+      <textarea placeholder="Tell us about your project..." rows="4" name="text"></textarea>
+      <button type="submit">SEND </button>
+    </form>
+  </div>
+</div>
+</>
     );
 };
 export default Contact;
