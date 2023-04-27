@@ -1,206 +1,100 @@
-@import 'https://fonts.googleapis.com/css?family=Antic+Didone|Montserrat:700';
-:root {
-  margin: 0;
-  padding: 0;
-  font-family: "Antic Didone";
-  font-size: 13px;
+
+  /* GRID CSS */
+  @import url("https://fonts.googleapis.com/css?family=Arvo");
+
+
+.message {
+  border: 1px solid #d2d0d0;
+  padding: 2em;
+  font-size: 1.7vw;
+  box-shadow: -2px 2px 10px 0px rgba(68, 68, 68, 0.4);
+}
+@supports (display: grid) {
+  .message {
+    display: none;
+  }
 }
 
-@media screen and (min-width: 760px) {
-  :root {
-    font-size: 15px;
+.section {
+  display: none;
+  padding: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 4rem;
   }
 }
-@media screen and (min-width: 820px) {
-  :root {
-    font-size: 16px;
+@supports (display: grid) {
+  .section {
+    display: block;
   }
-}
-@media screen and (min-width: 900px) {
-  :root {
-    font-size: 17px;
-  }
-}
-@media screen and (min-width: 980px) {
-  :root {
-    font-size: 18px;
-  }
-}
-@media screen and (min-width: 1060px) {
-  :root {
-    font-size: 19px;
-  }
-}
-@media screen and (min-width: 1220px) {
-  :root {
-    font-size: 20px;
-  }
-}
-@media screen and (min-width: 1400px) {
-  :root {
-    font-size: 22px;
-  }
-}
-html,
-body,
-#app {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
 }
 
-#app {
+h1 {
+  font-size: 2rem;
+  margin: 0 0 1.5em;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 150px;
+  grid-auto-flow: row dense;
+}
+
+.item {
   position: relative;
-  -webkit-animation: fadeIn 500ms ease-in-out forwards;
-          animation: fadeIn 500ms ease-in-out forwards;
-}
-
-.selectors {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 30px;
-  background: rgba(0, 0, 0, 0.1);
-  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-}
-.selectors .selector {
-  border: 1px solid #fff;
-  background: none;
-  width: 11px;
-  height: 11px;
-  border-radius: 50%;
-  margin: 5px 0;
-  opacity: 0.6;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  background: #55dfdf;
+  color: #fff;
+  grid-column-start: auto;
+  grid-row-start: auto;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  box-shadow: -2px 2px 10px 0px rgba(68, 68, 68, 0.4);
+  transition: transform 0.3s ease-in-out;
   cursor: pointer;
-  transition: background 0.3s ease-in-out, opacity 0.3s ease-in-out;
-}
-.selectors .selector:hover, .selectors .selector.active {
-  background: white;
-  opacity: 0.9;
+  
 }
 
-section.wrapper {
+.item:after {
+  content: "";
   width: 100%;
   height: 100%;
-  background-size: cover;
-  transition: background-image 500ms ease-in-out;
+  opacity: 0.3;
+  transition: opacity 0.3s ease-in-out;
+}
+.item:hover {
+  transform: scale(1.05);
 }
 
-aside.panel {
-  width: 40vw;
-  height: 100%;
-  opacity: 0.9;
-  color: #fff;
-  box-shadow: 5px 0 25px 0 rgba(0, 0, 0, 0.3);
-  transition: background 500ms ease-in-out;
+.item--medium {
+  grid-row-end: span 2;
 }
-aside.panel h2.panel-header,
-aside.panel p.panel-info {
-  margin: 0;
-  padding: 1.3rem 3.5rem;
+.item--large {
+  grid-row-end: span 3;
 }
-aside.panel h2.panel-header {
-  padding-top: 2em;
-  font-weight: normal;
-  font-size: 2.5rem;
-  text-transform: capitalize;
+.item--full {
+  grid-column-end: auto;
 }
-aside.panel p.panel-info {
-  font-size: 1.2rem;
-  line-height: 1.8em;
+@media screen and (min-width: 768px) {
+  .item--full {
+    grid-column: 1/-1;
+    grid-row-end: span 2;
+  }
 }
-aside.panel button.panel-button {
-  margin: 1.3rem 3.5rem;
-  padding: 0.8em 1.3em;
-  background: none;
-  border: 1px solid #fff;
-  color: #fff;
-  cursor: pointer;
-  font-family: "Montserrat";
-  font-size: 0.8rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  transition: box-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
-}
-aside.panel button.panel-button:hover {
-  box-shadow: inset 0 0 1.5em 1.5em #fff;
-}
-aside.panel button.panel-button:focus {
-  outline: none;
+.item__details {
+  z-index: 1;
+  padding: 15px;
+  color: #444;
+  background: #31e9036b;
+  letter-spacing: 1px;
+  color: #040000f6;
 }
 
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-
-/* .grid {
-    display: grid;
-    grid-gap: 30px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-auto-rows: 150px;
-    grid-auto-flow: row dense;
-  }
-  
-  .item {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    box-sizing: border-box;
-    background: #55dfdf;
-    color: #fff;
-    grid-column-start: auto;
-    grid-row-start: auto;
-    color: #fff;
-    background-size: cover;
-    background-position: center;
-    box-shadow: -2px 2px 10px 0px rgba(68, 68, 68, 0.4);
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
-    
-  }
-  
-  .item:after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    opacity: 0.3;
-    transition: opacity 0.3s ease-in-out;
-  }
-  .item:hover {
-    transform: scale(1.05);
-  }
-  
-  .item--medium {
-    grid-row-end: span 3;
-  }
-
-  .item__details {
-    z-index: 1;
-    padding: 15px;
-    color: #444;
-    background: #31e9036b;
-    letter-spacing: 1px;
-    color: #040000f6;
-  } */
+/* GRID CSS DONE */
