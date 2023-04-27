@@ -7,7 +7,7 @@ import LandingPage from './pages/landingPage';
 import Video from './video/Video';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Exercise from './components/Excersise';
+// import Exercise from './pages/Excersise';
 
 
 import RoomPage from './video/Room/Room';
@@ -22,7 +22,7 @@ function App() {
         <Route path="/" element={< Navbar/>}> 
           <Route path="/" element={<LandingPage />} />
           <Route path="/video" element={<Video />} />
-          <Route path="/exercise" element={<Exercise />} />
+          {/* <Route path="/exercise" element={<Exercise />} /> */}
           <Route path="/room/:roomId" element={<RoomPage/>}></Route>
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
