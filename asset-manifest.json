@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/flexfitness/static/css/main.4dad727a.css",
+    "main.js": "/flexfitness/static/js/main.2f7c4311.js",
+    "static/js/787.cef003ed.chunk.js": "/flexfitness/static/js/787.cef003ed.chunk.js",
+    "static/media/images.jpg": "/flexfitness/static/media/images.1621c64827a866b46e1f.jpg",
+    "static/media/logo.png": "/flexfitness/static/media/logo.56c65553af410c974b73.png",
+    "index.html": "/flexfitness/index.html",
+    "main.4dad727a.css.map": "/flexfitness/static/css/main.4dad727a.css.map",
+    "main.2f7c4311.js.map": "/flexfitness/static/js/main.2f7c4311.js.map",
+    "787.cef003ed.chunk.js.map": "/flexfitness/static/js/787.cef003ed.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4dad727a.css",
+    "static/js/main.2f7c4311.js"
+  ]
+}
