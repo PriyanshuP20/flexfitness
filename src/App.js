@@ -30,7 +30,8 @@ function App() {
         </Route>
       </Routes>
     </HashRouter>
-    
+    {/* <About/>
+    <Contact/> */}
     <Footer/>  
     </>
   )
