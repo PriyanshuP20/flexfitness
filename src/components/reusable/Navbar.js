@@ -1,8 +1,10 @@
 import './Navbar.css';
 import { Outlet, Link } from "react-router-dom";
-import logo from "C:/Users/priya/Desktop/flexfitness/src/image/logo.png";
+// import logo from "C:/Users/priya/Desktop/flexfitness/src/image/logo.png";
 import React, { useEffect, useState } from "react";
-
+// import   Login from './Login'
+import logo from '../../image/logo.png'
+// src\image\logo.png;
 function Navbar() {
 
   const [scroll, setScroll] = useState(false)
@@ -32,7 +34,8 @@ function Navbar() {
             <li><Link to="/video">Video</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/contact">Contact</Link></li>
-            <li><Link to="/Login">Login/SignUp</Link></li>
+            <li><Link to="/login">Login/SignUp</Link></li>
+               <li><Link to="/Form">Become a Member</Link></li>
            
 
           </ul>

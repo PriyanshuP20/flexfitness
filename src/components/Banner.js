@@ -1,9 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import bg from "../image/images.jpg";
 import Button from "../components/reusable/button.js";
 import '../components/banner.css';
 
+import Form from '../components/Form';
 
 
 export default function Banner() {
@@ -15,7 +17,8 @@ export default function Banner() {
           <span>
           <h1 style={{fontSize:'1cm'}}>Build Perfect body shape<br/>
              for good and healthy life.</h1></span>
-          <Button animation="fadeInLeft">Became a member</Button>
+             <Link to="/Form">
+          <Button animation="fadeInLeft" >Became a member</Button></Link>
           </div>
     </Main>
   </Container>
