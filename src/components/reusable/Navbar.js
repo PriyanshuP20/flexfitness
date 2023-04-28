@@ -1,7 +1,8 @@
 import './Navbar.css';
 import { Outlet, Link } from "react-router-dom";
-import logo from "C:/Users/priya/Desktop/flexfitness/src/image/logo.png";
+// import logo from "C:/Users/priya/Desktop/flexfitness/src/image/logo.png";
 import React, { useEffect, useState } from "react";
+// import   Login from './Login'
 
 function Navbar() {
 
@@ -18,7 +19,7 @@ function Navbar() {
 
           <div class="logo">
 
-            <Link to="/"><img class="navIcon" src={logo}/> </Link>
+            {/* <Link to="/"><img class="navIcon" src={logo}/> </Link> */}
           </div>
           {/* <div class="logo">
 
@@ -32,7 +33,7 @@ function Navbar() {
             <li><Link to="/video">Video</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/contact">Contact</Link></li>
-            <li><Link to="/Login">Login/SignUp</Link></li>
+            <li><Link to="/login">Login/SignUp</Link></li>
            
 
           </ul>

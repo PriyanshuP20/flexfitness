@@ -1,5 +1,7 @@
+import { Login } from '@mui/icons-material';
 import Banner from '../components/Banner'
 import Exercise from './Exercise.js';
+
 
 
 export default function LandingPage() {
@@ -24,8 +26,8 @@ export default function LandingPage() {
   
   
   
-  
-  
+       
+       
   
       </div>
        

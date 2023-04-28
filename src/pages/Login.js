@@ -2,15 +2,13 @@ import React, {useState} from 'react';
 import './Login.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLock, faUser } from '@fortawesome/free-solid-svg-icons';
-
-
-
 import {  signInWithEmailAndPassword   } from 'firebase/auth';
-import { auth } from '../Firebase/Firebase';
+// import { auth } from '../Firebase/Firebase';
 import { NavLink, useNavigate } from 'react-router-dom'
 
 
 import {  createUserWithEmailAndPassword  } from 'firebase/auth';
+import { auth } from '../components/Firebase/Firebase';
 
 
 function Login() {
@@ -71,10 +69,10 @@ function Login() {
         <div className="front"></div>
         <div className="back"></div>
       </div>
-      <div className="forms">
+      <div className="forms1">
         <div className="form-content">
-          <div className="login-form">
-            <div className="title">Login</div>
+          <div className="login-form1">
+            <div className="title1">Login</div>
             <form action="#">
               <div className="input-boxes">
                 <div className="input-box">
@@ -103,7 +101,7 @@ function Login() {
             </form>
           </div>
           <div className="signup-form">
-            <div className="title">Signup</div>
+            <div className="title1">Signup</div>
             <form action="#">
               <div className="input-boxes">
                 {/* <div className="input-box">

@@ -93,7 +93,7 @@ text-align: center;
 font-size: 15px;
 font-weight: 500;
 }
-.container1 .forms{
+.container1 .forms1{
 height: 100%;
 width: 100%;
 background: #fff;
@@ -107,13 +107,13 @@ justify-content: space-between;
 .form-content .signup-form{
 width: calc(100% / 2 - 25px);
 }
-.forms .form-content .title{
+.forms1 .form-content .title1{
 position: relative;
 font-size: 24px;
 font-weight: 500;
 color: #333;
 }
-.forms .form-content .title:before{
+.forms1 .form-content .title1:before{
 content: '';
 position: absolute;
 left: 0;
@@ -122,13 +122,13 @@ height: 3px;
 width: 25px;
 background: linear-gradient(to right, #FFF9B6 0%, #B4FE98 100%) ;
 }
-.forms .signup-form  .title:before{
+.forms1 .signup-form  .title1:before{
 width: 20px;
 }
-.forms .form-content .input-boxes{
+.forms1 .form-content .input-boxes{
 margin-top: 30px;
 }
-.forms .form-content .input-box{
+.forms1 .form-content .input-box{
 display: flex;
 align-items: center;
 height: 50px;
@@ -156,22 +156,22 @@ position: absolute;
 color: aquamarine;
 font-size: 17px;
 }
-.forms .form-content .text{
+.forms1 .form-content .text{
 font-size: 14px;
 font-weight: 500;
 color: #333;
 }
-.forms .form-content .text a{
+.forms1 .form-content .text a{
 text-decoration: none;
 }
-.forms .form-content .text a:hover{
+.forms1 .form-content .text a:hover{
 text-decoration: underline;
 }
-.forms .form-content .button{
+.forms1 .form-content .button{
 color: #fff;
 margin-top: 40px;
 }
-.forms .form-content .button input{
+.forms1 .form-content .button input{
 color: #fff;
 background: #CAB8FF;
 border-radius: 6px;
@@ -179,18 +179,18 @@ padding: 0;
 cursor: pointer;
 transition: all 0.4s ease;
 }
-.forms .form-content .button input:hover{
+.forms1 .form-content .button input:hover{
 background: linear-gradient(to right, #FFF9B6 0%, #B4FE98 100%) ;
 }
-.forms .form-content label{
+.forms1 .form-content label{
 color: aquamarine;
 cursor: pointer;
 }
-.forms .form-content label:hover{
+.forms1 .form-content label:hover{
 text-decoration: underline;
 }
-.forms .form-content .login-text,
-.forms .form-content .sign-up-text{
+.forms1 .form-content .login-text,
+.forms1 .form-content .sign-up-text{
 text-align: center;
 margin-top: 25px;
 }
@@ -234,10 +234,10 @@ width: 100%;
 .form-content .signup-form{
 display: none;
 }
-.container1 #flip:checked ~ .forms .signup-form{
+.container1 #flip:checked ~ .forms1 .signup-form{
 display: block;
 }
-.container1 #flip:checked ~ .forms .login-form{
+.container1 #flip:checked ~ .forms1 .login-form{
 display: none;
 }
 }
