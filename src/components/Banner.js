@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import bg from "../image/images.jpg";
 import Button from "../components/reusable/button.js";
