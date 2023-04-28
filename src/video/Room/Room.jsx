@@ -20,7 +20,7 @@ const RoomPage = () => {
         });
   };
   return (
-  <div className="room-page">
+  <div className="room-page" style={{padding:100}}>
    <div ref={myMeeting}/>
    
   </div>

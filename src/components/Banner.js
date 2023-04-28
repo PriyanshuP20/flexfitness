@@ -3,7 +3,7 @@ import styled from "styled-components";
 import bg from "../image/images.jpg";
 import Button from "../components/reusable/button.js";
 import '../components/banner.css';
-import Header from "./Header";
+
 
 
 export default function Banner() {
