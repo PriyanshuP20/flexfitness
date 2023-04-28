@@ -29,7 +29,7 @@ function Navbar() {
 
           <ul id="menu">
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/excersise">Excersise</Link></li>
+            <li><Link to="/exercise">Exercise</Link></li>
             <li><Link to="/video">Video</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/contact">Contact</Link></li>
