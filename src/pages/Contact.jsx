@@ -59,8 +59,8 @@ const Contact =()=> {
       Email: hello@flexfitness.com
     </h3>
   </div>
-  <div class="contact-form">
-  <form target="_blank" action="https://formsubmit.co/priyanshupatel007@gmail.com" method="POST">
+  <div class="contactForm">
+  <form class="contactForm" target="_blank" action="https://formsubmit.co/priyanshupatel007@gmail.com" method="POST">
       <input placeholder="Name" type="text" name="name"/>
       <input placeholder="Email" type="email" name="Email"/>
       <textarea placeholder="Tell us about your project..." rows="4" name="text"></textarea>

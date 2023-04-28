@@ -2,6 +2,9 @@ import React, {useState} from 'react';
 import './Login.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLock, faUser } from '@fortawesome/free-solid-svg-icons';
+
+
+
 import {  signInWithEmailAndPassword   } from 'firebase/auth';
 // import { auth } from '../Firebase/Firebase';
 import { NavLink, useNavigate } from 'react-router-dom'
@@ -74,13 +77,13 @@ function Login() {
           <div className="login-form1">
             <div className="title1">Login</div>
             <form action="#">
-              <div className="input-boxes">
-                <div className="input-box">
+              <div className="input-box1es">
+                <div className="input-box1">
                   <FontAwesomeIcon icon={faEnvelope} />
                   <input id="email-address" name="email" type="email" required placeholder="Email address" 
                                     onChange={(e)=>setEmailLogin(e.target.value)}/>
                 </div>
-                <div className="input-box">
+                <div className="input-box1">
                   <FontAwesomeIcon icon={faLock} />
                   <input id="password" name="password" type="password" required placeholder="Password"
                                     onChange={(e)=>setPasswordLogin(e.target.value)}
@@ -89,7 +92,7 @@ function Login() {
                 <div className="text">
                   <a href="#">Forgot password?</a>
                 </div>
-                <div className="button input-box">
+                <div className="button input-box1">
                   <input type="submit" value="Submit" onClick={onLogin}/>
                 </div>
                 <br />
@@ -100,15 +103,15 @@ function Login() {
               </div>
             </form>
           </div>
-          <div className="signup-form">
+          <div className="signup-form1">
             <div className="title1">Signup</div>
             <form action="#">
-              <div className="input-boxes">
-                {/* <div className="input-box">
+              <div className="input-box1es">
+                {/* <div className="input-box1">
                   <FontAwesomeIcon icon={faUser} />
                   <input type="text" placeholder="Enter your name" required />
                 </div> */}
-                <div className="input-box">
+                <div className="input-box1">
                   <FontAwesomeIcon icon={faEnvelope} />
                   <input
                                 type="email"
@@ -119,7 +122,7 @@ function Login() {
                                 placeholder="Email address"                                
                             />
                 </div>
-                <div className="input-box">
+                <div className="input-box1">
                   <FontAwesomeIcon icon={faLock} />
                   <input
                                 type="password"
@@ -130,7 +133,7 @@ function Login() {
                                 placeholder="Password"              
                             />
                 </div>
-                <div className="button input-box">
+                <div className="button input-box1">
                   <input type="submit" value="Submit" onClick={onSubmit} />
                 </div>
                 <div className="text sign-up-text">
