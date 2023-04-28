@@ -1,5 +1,8 @@
 import Banner from '../components/Banner'
 import Exercise from '../components/reusable/Eprop.js';
+import ParallaxScroll from '../components/Parallax';
+
+
 
 
 export default function LandingPage() {
@@ -21,6 +24,15 @@ export default function LandingPage() {
               exercises to target your abs. It will help you improve your
               mood and gain energy."/> 
         </div>
+      
+        
+        <ParallaxScroll></ParallaxScroll>
+  
+  
+  
+       
+       
+  
       </div>
        
       
