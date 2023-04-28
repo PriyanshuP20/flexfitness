@@ -9,6 +9,7 @@ import Video from './video/Video';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Exercise from './pages/Excersise';
+import Form from '../src/components/Form';
 
 
 import RoomPage from './video/Room/Room';
@@ -29,6 +30,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/Login" element={<Login />} />
+             <Route path="/Form" element={<Form />} />
         </Route>
       </Routes>
     </HashRouter>
