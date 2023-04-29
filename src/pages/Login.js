@@ -92,11 +92,11 @@ function Login() {
                   <div className="text">
                     <a href="#">Forgot password?</a>
                   </div>
-                  <div className="button input-box">
+                  <div className="buttonn input-box">
                     <input type="submit" value="Submit" onClick={onLogin}/>
                   </div>
                   <br />
-                  <button className="social-signin google">Log in with Google+</button>
+                  {/* <button className="social-signin google buttonn">Log in with Google+</button> */}
                   <div className="text sign-up-text">
                     Don't have an account? <label htmlFor="flip">Signup now</label>
                   </div>
@@ -105,7 +105,7 @@ function Login() {
             </div>
             <div className="signup-form">
               <div className="title">Signup</div>
-              <form action="#" class="forms1">
+              <form action="#">
                 <div className="input-boxes">
                   {/* <div className="input-box">
                     <FontAwesomeIcon icon={faUser} />
@@ -133,7 +133,7 @@ function Login() {
                                   placeholder="Password"              
                               />
                   </div>
-                  <div className="button input-box">
+                  <div className="buttonn input-box">
                     <input type="submit" value="Submit" onClick={onSubmit} />
                   </div>
                   <div className="text sign-up-text">

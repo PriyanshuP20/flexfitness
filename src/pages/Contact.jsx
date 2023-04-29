@@ -3,7 +3,7 @@ import { Container,Row,Col } from "react-bootstrap";
 import './Contact.css';
 const Contact =()=> {
   
-    return(<body class="abc">
+    return(
       
         <div class="contact-form-container">
               <div class="contact-us">
@@ -31,10 +31,10 @@ const Contact =()=> {
               </div>
               <div class="header">
                 <h1>
-                  Let's Get Start<span style={{color :"white"}}>ed</span>
+                  Let's Get Started
                 </h1>
                 <h2>
-                  Reach out to us for <span style={{color :"white"}}> any</span> queries and help.
+                  Reach out to us for any queries and help.
                 </h2>
               </div>
             
@@ -48,7 +48,7 @@ const Contact =()=> {
               <div class="email">
                 <i class="fas fa-envelope"></i>
                 <h3>
-                  Email: hello@flexfitne<span style={{color :"white"}}>ss.com</span>
+                  Email: hello@flexfitness.com
                 </h3>
               </div>
               <div class="contact-form">
@@ -57,10 +57,10 @@ const Contact =()=> {
                   <input placeholder="Email" type="email" name="Email"/>
                   <textarea placeholder="Your message here" rows="4" name="text"></textarea>
                   <button type="submit">SEND </button>
-                </form>
+              </form>
               </div>
     </div>
-</body>
+
     );
 };
 export default Contact;
