@@ -44,9 +44,9 @@
   
 .A{
 	padding: 50px;
-	margin: 50px;
-	scale: 2;
+	margin: 30px;
 	height:400px;
-	width:max-content;
+	width:400px;
+	scale: 1.65;
 }
   

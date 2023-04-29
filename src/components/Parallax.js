@@ -19,6 +19,12 @@ function ParallaxScroll() {
                 <div class="title">
                     <h3>SERVICES FOR</h3>
                     <h1>YOU</h1>
+                    
+                </div>
+
+                <div class="title">
+                    
+                    <h1>Diet Planner</h1>
                 </div>
             </section>
           {/* <Eventcalendar></Eventcalendar> */}

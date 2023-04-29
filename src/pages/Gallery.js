@@ -7,13 +7,13 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import "./Gallery.css";
-import pink from '../image/pink.jpg';
-import blue from '../image/blue.jpg';
-import gold from '../image/gold.jpg';
-import purple from '../image/purple.jpg';
-
-import red1 from '../image/red1.jpg';
-import white1 from '../image/white1.jpg';
+import gym11 from '../image/gym11.jpg';
+import gym2 from '../image/gym2.jpg';
+import gym3 from '../image/gym3.jpg';
+import gym4 from '../image/gym4.jpg';
+import gym5 from '../image/gym5.jpg';
+import gym6 from '../image/gym6.jpg';
+import gym7 from '../image/gym7.jpg';
 
 
 import { Pagination } from "swiper";
@@ -43,17 +43,18 @@ export default function Gallery() {
 
 
 
-				<SwiperSlide><img src={red1} alt="hcabhcbah" className="A"></img></SwiperSlide>
-				<SwiperSlide><img src={blue} alt="hcabhcbah" className="A"></img></SwiperSlide>
+				<SwiperSlide><img src={gym11} alt="hcabhcbah" className="A"></img></SwiperSlide>
+				<SwiperSlide><img src={gym2} alt="hcabhcbah" className="A"></img></SwiperSlide>
 
-				<SwiperSlide><img src={white1} alt="hcabhcbah" className="A"></img></SwiperSlide>
+				<SwiperSlide><img src={gym3} alt="hcabhcbah" className="A"></img></SwiperSlide>
 
 
-				<SwiperSlide><img src={gold} alt="hcabhcbah" className="A" ></img></SwiperSlide>
+				<SwiperSlide><img src={gym4} alt="hcabhcbah" className="A" ></img></SwiperSlide>
+ 
+				<SwiperSlide><img src={gym5} alt="hcabhcbah" className="A"></img></SwiperSlide>
 
-				<SwiperSlide><img src={purple} alt="hcabhcbah" className="A"></img></SwiperSlide>
-
-				<SwiperSlide><img src={pink} alt="hcabhcbah" className="A"></img></SwiperSlide>
+				<SwiperSlide><img src={gym6} alt="hcabhcbah" className="A"></img></SwiperSlide>
+				<SwiperSlide><img src={gym7} alt="hcabhcbah" className="A"></img></SwiperSlide> 
 
 
 			</Swiper>

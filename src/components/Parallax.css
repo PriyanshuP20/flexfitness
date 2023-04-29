@@ -124,7 +124,7 @@
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-image: url(https://images.unsplash.com/photo-1415018255745-0ec3f7aee47b?dpr=1&auto=format&fit=crop&w=1500&h=938&q=80&cs=tinysrgb&crop=);
+  background-image: url(https://images.unsplah.com/-0ec3f7aee47b?dpr=1&auto=format&fit=crop&w=1500&h=938&q=80&cs=tinysrgb&crop=);
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
@@ -168,7 +168,7 @@
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-image: url(https://images.unsplash.com/photo-1493673272479-a20888bcee10?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGxhbnQlMjB3YWxscGFwZXJ8ZW58MHx8MHx8&w=1000&q=80);
+  background-image: url(https://images.unsplash.com/photo-1599058918144-1ffabb6ab9a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
@@ -198,7 +198,7 @@
 }
 
 /* Extras */
-/**************************/
+************************
 #parallax-world-of-ugg .line-break {
   border-bottom: 1px solid black;
   width: 150px;
