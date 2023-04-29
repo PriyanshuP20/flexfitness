@@ -16,6 +16,7 @@ import Navbar from './components/reusable/Navbar';
 import About from './pages/About.js';
 import Contact from './pages/Contact.jsx';
 import Login from './pages/Login';
+import Foot from './components/reusable/Footer';
 function App() {
   return (
     <>
@@ -35,7 +36,8 @@ function App() {
     </HashRouter>
     {/* <About/>
     <Contact/> */}
-    <Footer/>  
+    <Foot />  
+    {/* <Footer/>   */}
     </>
   )
 }

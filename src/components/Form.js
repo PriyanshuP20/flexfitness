@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import '../components/form.css';
 const Form = () => {
@@ -62,11 +63,137 @@ const Form = () => {
 
   return (
     <>
-      <section className="contactus-section">
+    
+    <div className='Aa'>
+      <div className="container1">
+        
+        
+        <div className="forms">
+          <div className="form-content1">
+            <div className="login-form">
+              <div className="title">Join Our Mailinglist to get Roomcode</div>
+              <form action="#">
+                <div className="input-boxes">
+
+                      <div className="input-box">
+                        {/* <label>FirstName : </label> */}
+                        <input
+                          type="text"
+                          name="firstName"
+                          id=""
+                          className="form-control"
+                          placeholder="First Name"
+                          value={userData.firstName}
+                          onChange={postUserData}
+                        />
+                      </div>
+                      <div className="input-box">
+                        {/* <label>LastName : </label> */}
+                        <input
+                          type="text"
+                          name="lastName"
+                          id=""
+                          className="form-control"
+                          placeholder="Last Name"
+                          value={userData.lastName}
+                          onChange={postUserData}
+                        />
+                      </div>
+
+                      <div className="input-box">
+                        {/* <label>Phone No : </label> */}
+                        <input
+                          type="text"
+                          name="phone"
+                          id=""
+                          className="form-control"
+                          placeholder="Phone Number "
+                          value={userData.phone}
+                          onChange={postUserData}
+                        />
+                      </div>
+                      <div className="input-box">
+                        {/* <label className="email">Email   : </label> */}
+                        <input
+                          type="text"
+                          name="email"
+                          id=""
+                          className="form-control"
+                          placeholder="Email ID"
+                          value={userData.email}
+                          onChange={postUserData}
+                        />
+                      </div>
+
+                      <div className="input-box">
+                        {/* <label className="address">Address : </label> */}
+                        <input
+                          type="text"
+                          name="address"
+                          id=""
+                          className="form-control"
+                          placeholder="Add Address"
+                          value={userData.address}
+                          onChange={postUserData}
+                        />
+                      </div>
+
+                      <div className="input-box">
+                        {/* <label>message : </label> */}
+                        <input
+                          type="text"
+                          name="message"
+                          id=""
+                          className="form-control"
+                          placeholder="Enter Your Message"
+                          value={userData.message}
+                          onChange={postUserData}
+                        />
+                      </div>
+
+                      <div class="form-check form-checkbox-style">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckChecked"
+                      />
+                      
+                    </div>
+                    <label
+                        class="form-check-label"
+                        className="ppara">
+                        I agree that the FlexFitness may contact me at the
+                        email address or phone number above
+                      </label>
+
+               
+                  
+                  <div className="buttonn input-box">
+                    <input type="submit" value="Submit" onClick={submitData}/>
+                    
+                  </div>
+
+                  
+                  <br />
+
+                </div>
+              </form>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      </div>
+      
+      
+      
+      {/* <section className="contactus-section">
         <div className="container">
           <div className="row">
             <div className="col-12 col-lg-10 mx-auto">
               <div className="row">
+
                 <div className="contact-leftside">
                   <h1 className="main-heading">
                     Thanks for <br /> Becoming a Member.
@@ -79,11 +206,13 @@ const Form = () => {
                   </figure>
                 </div>
 
-                {/* right side contact form  */}
+
+        
+                right side contact form 
                 <div className="contact-rightside col-12 col-lg-7">
                   <form method="POST">
                     <div className="row">
-                      <div className="col-12 col-lg-6 contact-input-feild">
+                      <div className="col-12 col-lg-6 contact-input-feild input-box">
                         <label>FirstName : </label>
                         <input
                           type="text"
@@ -180,7 +309,7 @@ const Form = () => {
 
                     <button
                       type="submit"
-                      className="btn btn-style w-100"
+                      className="btn w-100"
                       onClick={submitData}>
                       Submit
                     </button>
@@ -190,7 +319,7 @@ const Form = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

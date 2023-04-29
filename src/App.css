@@ -164,11 +164,10 @@ h1 {
 /* FOOTER */
 
 .footer{
- 
   bottom: 0;
-  background: #251f21;
+  background: linear-gradient(to right, #98faf39f 0%, #96f15e94 100%) ;
   width: 100%;
-
+  
 }
 .footer h5{
 color: rgb(244, 86, 255);
@@ -211,13 +210,13 @@ hr{
  
   
 }
-input{
+/* input{
   width: 50%;
   height: 40px;
   border: 4px solid lightseagreen;
   border-radius: 5%;
-  box-shadow: 5px red 5px 5px;
-}
+  box-shadow: 5px rgb(225, 18, 18) 5px 5px;
+} */
 
 .home_page {
   width: 100%;

@@ -1,6 +1,8 @@
 import React from 'react'
 import Eprop from '../components/reusable/Eprop'
 import './exercise.css'
+import { Outlet, Link } from "react-router-dom";
+
 export default function Excersise() {
     return (
   
@@ -38,12 +40,9 @@ export default function Excersise() {
                     Contact or register for more.
                     </small>
                     <div class="hero-buttons">
-                    <a href="#" class="button button-primery">
-                        Contact Us
-                    </a>
-                    <a href="#" class="button button-o">
-                        Register
-                    </a>
+                    <Link to="/contact" class="button button-primery">Contact</Link>
+                    <Link to="/login" class="button button-o">Register</Link>
+                   
                     </div>
                 </div>
                 </section>
