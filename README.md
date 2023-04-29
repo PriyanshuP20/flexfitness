@@ -1,14 +1,14 @@
-Fitness Web App
+#Fitness Web App
 Welcome to the Fitness Web App! This web application is designed to help you achieve your fitness goals by providing you with a personalized workout plan and tracking your progress over time.
 
-Table of Contents
+#Table of Contents
 Features
 Demo
 Getting Started
 Usage
 Contributing
 License
-Features
+#Features
 Personalized workout plans based on your fitness level, goals, and preferences.
 Progress tracking and analysis to help you stay motivated and on track.
 Exercise library with detailed instructions and videos for proper form and technique.
@@ -16,7 +16,7 @@ Community forum to connect with other fitness enthusiasts and share tips and adv
 Demo
 Check out the live demo of the app here.
 
-Getting Started
+#Getting Started
 To get started with the Fitness Web App, you will need to have the following installed:
 
 Node.js
@@ -27,7 +27,7 @@ Clone the repository to your local machine.
 Run npm install to install the dependencies.
 Create a .env file with your MongoDB connection string and other environment variables (see .env.example for an example).
 Run npm start to start the app.
-Usage
+#Usage
 The app is easy to use and navigate. Simply log in or create an account to get started. Once you're logged in, you'll be able to:
 
 View and edit your personal profile.
