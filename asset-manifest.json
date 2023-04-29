@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/flexfitness/static/css/main.d67968fe.css",
-    "main.js": "/flexfitness/static/js/main.2e3baa98.js",
+    "main.css": "/flexfitness/static/css/main.0b30ca58.css",
+    "main.js": "/flexfitness/static/js/main.a92d15e4.js",
     "static/js/787.cef003ed.chunk.js": "/flexfitness/static/js/787.cef003ed.chunk.js",
-    "static/media/pink.jpg": "/flexfitness/static/media/pink.bff0fb8cb83b13e720bd.jpg",
+    "static/media/gym3.jpg": "/flexfitness/static/media/gym3.0e618a0b1c79a54851f9.jpg",
     "static/media/images.jpg": "/flexfitness/static/media/images.1621c64827a866b46e1f.jpg",
-    "static/media/blue.jpg": "/flexfitness/static/media/blue.8e1c0305274ead982f06.jpg",
-    "static/media/purple.jpg": "/flexfitness/static/media/purple.ee9507d74774542fcf91.jpg",
-    "static/media/red1.jpg": "/flexfitness/static/media/red1.23caaf0036e0860152b6.jpg",
-    "static/media/white1.jpg": "/flexfitness/static/media/white1.8676c37e0b1cb8980680.jpg",
-    "static/media/gold.jpg": "/flexfitness/static/media/gold.4ec9e81dbcb23fe22288.jpg",
+    "static/media/gym6.jpg": "/flexfitness/static/media/gym6.d0da1b03b8ebdfd5f21b.jpg",
+    "static/media/gym4.jpg": "/flexfitness/static/media/gym4.2867fe5374730b3dc553.jpg",
+    "static/media/gym2.jpg": "/flexfitness/static/media/gym2.54047062697b3c63a95c.jpg",
+    "static/media/gym11.jpg": "/flexfitness/static/media/gym11.ceab222b742c7cb2256d.jpg",
+    "static/media/gym7.jpg": "/flexfitness/static/media/gym7.457bbe5de34a35b9a54f.jpg",
+    "static/media/gym5.jpg": "/flexfitness/static/media/gym5.a00f5e08347f5a150225.jpg",
     "static/media/c.jpg": "/flexfitness/static/media/c.ceda0af79d1b87a1bc01.jpg",
     "static/media/f.jpg": "/flexfitness/static/media/f.5e4ae269216d9a8fbc7b.jpg",
     "static/media/b.jpg": "/flexfitness/static/media/b.e2f8000096885dd5a433.jpg",
@@ -17,19 +18,19 @@
     "static/media/e.jpg": "/flexfitness/static/media/e.82b19416298f15855e46.jpg",
     "static/media/h.jpg": "/flexfitness/static/media/h.e29dac1ae19e83ce8bc8.jpg",
     "static/media/d.jpg": "/flexfitness/static/media/d.092eeb1bedf0f58aba45.jpg",
+    "static/media/logo.png": "/flexfitness/static/media/logo.8e0a61443ee431b604e9.png",
     "static/media/a.jpg": "/flexfitness/static/media/a.e79f17b2424abf9510ca.jpg",
-    "static/media/logo.png": "/flexfitness/static/media/logo.56c65553af410c974b73.png",
     "static/media/slick.svg": "/flexfitness/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/flexfitness/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/flexfitness/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/flexfitness/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/flexfitness/index.html",
-    "main.d67968fe.css.map": "/flexfitness/static/css/main.d67968fe.css.map",
-    "main.2e3baa98.js.map": "/flexfitness/static/js/main.2e3baa98.js.map",
+    "main.0b30ca58.css.map": "/flexfitness/static/css/main.0b30ca58.css.map",
+    "main.a92d15e4.js.map": "/flexfitness/static/js/main.a92d15e4.js.map",
     "787.cef003ed.chunk.js.map": "/flexfitness/static/js/787.cef003ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d67968fe.css",
-    "static/js/main.2e3baa98.js"
+    "static/css/main.0b30ca58.css",
+    "static/js/main.a92d15e4.js"
   ]
 }
