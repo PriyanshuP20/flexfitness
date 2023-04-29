@@ -1,15 +1,5 @@
-.main-heading
-{
-    background-color: antiquewhite;
-}
-.row{
- background-color: #FFF8D6;
-}
 
-.ppara{
-    background-color: azure;
-}
-input{
+/* input{
     margin: 0%;
 width: 6cm;
 height: 0.6cm;
@@ -20,16 +10,208 @@ height: 0.6cm;
 .address{
     margin:0.7%;
 }
-/* div{
+div{
     padding: 2px;
 } */
+
+.btn:hover{
+    background: linear-gradient(to right, #FFF9B6 0%, #B4FE98 100%) ;
+}
 .btn{
-    width: 5cm;
-    height: 1cm;
-    border: 2px;
-    background-color: blue;
-    border-radius: 5px;
-    padding: 2px;
-    color: white;
-    margin-left: 13%;
+margin-bottom: 20px;
+width: 220px;
+height: 36px;
+border: none;
+border-radius: 2px;
+color: #FFF;
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
+transition: 0.2s ease;
+cursor: pointer;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+transition: 0.2s ease;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+transition: 0.2s ease;
+background: #000000;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,500');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.Aa{
+ /* display: absolute;
+align-items:stretch;
+justify-content: center;
+background: linear-gradient(to right, #FFF9B6 0%,);
+padding: 30px; */
+
+width: 50%; /* or any desired width */
+margin:  auto;
+margin-top: 5%;
+margin-bottom: 2.5%;
+ 
+}
+.container1{
+position: relative;
+max-width: 850px;
+width: 100%;
+background: #fff;
+padding: 40px 30px;
+box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+perspective: 2700px;
+}
+.container1 .cover{
+position: absolute;
+top: 0;
+left: 50%;
+height: 100%;
+width: 50%;
+z-index: 98;
+transition: all 1s ease;
+transform-origin: left;
+transform-style: preserve-3d;
+}
+.container1 #flip:checked ~ .cover{
+transform: rotateY(-180deg);
+}
+.container1 .cover .front,
+.container1 .cover .back{
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+}
+.cover .back{
+transform: rotateY(180deg);
+backface-visibility: hidden;
+}
+.container1 .cover::before,
+.container1 .cover::after{
+content: '';
+position: absolute;
+height: 100%;
+width: 100%;
+background:  linear-gradient(to right, #FFF9B6 0%, #B4FE98 100%);
+opacity: 0.5;
+z-index: 12;
+}
+.container1 .cover::after{
+opacity: 0.3;
+transform: rotateY(180deg);
+backface-visibility: hidden;
+}
+.container1 .cover img{
+position: absolute;
+height: 100%;
+width: 100%;
+object-fit: cover;
+z-index: 10;
+}
+.container1 .cover .text{
+position: absolute;
+z-index: 130;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.cover .text .text-1,
+.cover .text .text-2{
+font-size: 26px;
+font-weight: 600;
+color: #fff;
+text-align: center;
+}
+.cover .text .text-2{
+font-size: 15px;
+font-weight: 500;
+}
+.container1 .forms{
+height: 100%;
+width: 100%;
+background: #fff;
+}
+.container1 .form-content1{
+display: flex;
+align-items: center;
+/* justify-content: space-between; */
+}
+.form-content1 .login-form{
+width: 100%;
+}
+.forms .form-content1 .title{
+    position: relative;
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+    }
+.forms .form-content1 .title:before{
+content: '';
+position: absolute;
+left: 0;
+bottom: 0;
+height: 3px;
+width: 25px;
+background: linear-gradient(to right, #FFF9B6 0%, #B4FE98 100%) ;
+}
+.forms .signup-form  .title:before{
+width: 20px;
+}
+.forms .form-content1 .input-boxes{
+margin-top: 30px;
+}
+.forms .form-content1 .input-box{
+display: flex;
+align-items: center;
+height: 50px;
+width: 100%;
+margin: 10px 0;
+position: relative;
+}
+.form-content1 .input-box input{
+height: 100%;
+width: 100%;
+outline: none;
+border: none;
+padding: 0 30px;
+font-size: 16px;
+font-weight: 500;
+border-bottom: 2px solid rgba(0,0,0,0.2);
+transition: all 0.3s ease;
+}
+.form-content1 .input-box input:focus,
+.form-content1 .input-box input:valid{
+border-color:  linear-gradient(to right, #FFF9B6 0%, #B4FE98 100%);
+}
+.form-content1 .input-box i{
+position: absolute;
+color: aquamarine;
+font-size: 17px;
+}
+.forms .form-content1 .text{
+font-size: 14px;
+font-weight: 500;
+color: #333;
+}
+.forms .form-content1 .text a{
+text-decoration: none;
+}
+.forms .form-content1 .text a:hover{
+text-decoration: underline;
+}
+.forms .form-content1 .buttonn{
+color: #fff;
+margin-top: 40px;
+}
+.forms .form-content1 .buttonn input{
+color: #fff;
+background: #CAB8FF;
+border-radius: 6px;
+padding: 0;
+cursor: pointer;
+transition: all 0.4s ease;
 }

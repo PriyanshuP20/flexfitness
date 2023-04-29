@@ -1,7 +1,6 @@
-
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../App.css'
-import logo2 from "../resources/logo2.jpg" 
+import '../../App.css'
+import logo from "../../image/logo.png" 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -11,8 +10,8 @@ function Foot(){
         <div class="border-top pt-4  pt-md-5 bg footer">
         <div class="row">
                   <div class="col-md mar">
-                            <img class="mb-2 footer_logo"    src={logo2} alt="logo"/>
-                            <small class="d-block text-muted">REDEFINIG YOUR NATURE</small>
+                            <img class="mb-2 footer_logo"    src={logo} alt="logo"/>
+                            
                             
                   </div>
 
@@ -63,7 +62,7 @@ function Foot(){
             </div>
             <div class="col">
               <button class="btn">
-              <i class="fa fa-twitter"></i>
+              <i class="fa fa-twitter dark"></i>
             </button>
             </div>
             <div class="col">
@@ -78,9 +77,6 @@ function Foot(){
             </div>
           </div>
 
-          <hr/>
-          
-          <br/>
         <div/>
 
         

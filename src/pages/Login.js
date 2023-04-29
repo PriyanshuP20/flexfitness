@@ -134,7 +134,7 @@ function Login() {
                               />
                   </div>
                   <div className="buttonn input-box">
-                    <input type="submit" value="Submit" onClick={onSubmit} />
+                    <input type="submit" value="Sign Up" onClick={onSubmit} />
                   </div>
                   <div className="text sign-up-text">
                     Already have an account? <label htmlFor="flip">Login now</label>
