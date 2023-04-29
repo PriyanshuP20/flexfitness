@@ -1,4 +1,4 @@
-/* .main-heading
+.main-heading
 {
     background-color: antiquewhite;
 }
@@ -20,9 +20,9 @@ height: 0.6cm;
 .address{
     margin:0.7%;
 }
-div{
+/* div{
     padding: 2px;
-}
+} */
 .btn{
     width: 5cm;
     height: 1cm;
@@ -32,4 +32,4 @@ div{
     padding: 2px;
     color: white;
     margin-left: 13%;
-} */
+}
