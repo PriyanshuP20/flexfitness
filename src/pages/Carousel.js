@@ -16,11 +16,11 @@ const Carousel = () => {
     const settings = {
         dots: true,
         infinite: true,
-        speed: 500,
+        speed: 2000,
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 1500,
+        autoplaySpeed: 2000,
         cssEase: "linear"
     };
 
@@ -30,12 +30,12 @@ const Carousel = () => {
 
                 <figure class="snip1197">
                     <figcaption>
-                        <blockquote>Sometimes I think the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.</blockquote>
+                        <blockquote>Joining this gym was the best decision I ever made for my fitness journey. The trainers are knowledgeable and supportive, and the community is incredibly motivating. </blockquote>
                         <div class="arrow"></div>
                     </figcaption>
                     <img src={cl1} alt="sq-sample10" />
                     <div class="author">
-                        <h5>Pelican Steve <span>- LittleSnippets</span></h5>
+                        <h5>Pelican Steve </h5>
                     </div>
                 </figure>
 
@@ -48,12 +48,12 @@ const Carousel = () => {
 
                 <figure class="snip1197">
                     <figcaption>
-                        <blockquote>Sometimes I think the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.</blockquote>
+                        <blockquote>I've tried a lot of gyms in the past, but this one stands out. The facilities are top-notch, the classes are challenging, and the staff is always friendly and welcoming.</blockquote>
                         <div class="arrow"></div>
                     </figcaption>
                     <img src={cl2} alt="sq-sample10" />
                     <div class="author">
-                        <h5>Pelican Steve <span>- LittleSnippets</span></h5>
+                        <h5>Iqra Hadid </h5>
                     </div>
                 </figure>
 
@@ -65,12 +65,12 @@ const Carousel = () => {
 
                 <figure class="snip1197">
                     <figcaption>
-                        <blockquote>Sometimes I think the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.</blockquote>
+                        <blockquote>This gym helped me get into the best shape of my life. The trainers pushed me to work harder than I ever thought possible, and the results speak for themselves.</blockquote>
                         <div class="arrow"></div>
                     </figcaption>
                     <img src={cl3}alt="sq-sample10" />
                     <div class="author">
-                        <h5>Pelican Steve <span>- LittleSnippets</span></h5>
+                        <h5>Emily Jason </h5>
                     </div>
                 </figure>
 
@@ -83,12 +83,12 @@ const Carousel = () => {
 
                 <figure class="snip1197">
                     <figcaption>
-                        <blockquote>Sometimes I think the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.</blockquote>
+                        <blockquote>If you're serious about reaching your fitness goals, this gym is the place to be. The trainers are committed to helping you succeed, and the variety of equipment and classes keeps things interesting.</blockquote>
                         <div class="arrow"></div>
                     </figcaption>
                 <img src={cl4} alt="sq-sample10" />
                     <div class="author">
-                        <h5>Pelican Steve <span>- LittleSnippets</span></h5>
+                        <h5>Miacheal Clark </h5>
                     </div>
                 </figure>
 
@@ -102,12 +102,12 @@ const Carousel = () => {
 
                 <figure class="snip1197">
                     <figcaption>
-                        <blockquote>Sometimes I think the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.</blockquote>
+                        <blockquote> I can honestly say it's been a game-changer for me. I've gained strength, confidence, and a sense of belonging to a community that supports and encourages each other.</blockquote>
                         <div class="arrow"></div>
                     </figcaption>
                     <img src={cl5} alt="sq-sample10" />
                     <div class="author">
-                        <h5>Pelican Steve <span>- LittleSnippets</span></h5>
+                        <h5>Kylie Thomas </h5>
                     </div>
                 </figure>
 
@@ -120,12 +120,12 @@ const Carousel = () => {
 
                 <figure class="snip1197">
                     <figcaption>
-                        <blockquote>Sometimes I think the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.</blockquote>
+                        <blockquote>The trainers at this gym are the real deal. They're knowledgeable, experienced, and passionate about what they do. They push you to be your best and celebrate your successes with you.</blockquote>
                         <div class="arrow"></div>
                     </figcaption>
                     <img src={cl6} alt="sq-sample10" />
                     <div class="author">
-                        <h5>Pelican Steve <span>- LittleSnippets</span></h5>
+                        <h5>Jordan Ali </h5>
                     </div>
                 </figure>
 
@@ -136,12 +136,12 @@ const Carousel = () => {
 
                 <figure class="snip1197">
                     <figcaption>
-                        <blockquote>Sometimes I think the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.</blockquote>
+                        <blockquote>This gym has helped me transform my body and my mindset. I've gone from being a self-conscious gym newbie to feeling strong and confident in my abilities.</blockquote>
                         <div class="arrow"></div>
                     </figcaption>
                     <img src={cl7} alt="sq-sample10" />
                     <div class="author">
-                        <h5>Pelican Steve <span>- LittleSnippets</span></h5>
+                        <h5>Katrina Smith</h5>
                     </div>
                 </figure>
 
@@ -154,12 +154,12 @@ const Carousel = () => {
 
             <figure class="snip1197">
                 <figcaption>
-                    <blockquote>Sometimes I think the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.</blockquote>
+                    <blockquote>The community at this gym is amazing. Everyone is so supportive and encouraging, and it's helped me stay accountable and motivated on my fitness journey.</blockquote>
                     <div class="arrow"></div>
                 </figcaption>
                 <img src={cl8} alt="sq-sample10" />
                 <div class="author">
-                    <h5>Pelican Steve <span>- LittleSnippets</span></h5>
+                    <h5>Moen Ali </h5>
                 </div>
             </figure>
 
